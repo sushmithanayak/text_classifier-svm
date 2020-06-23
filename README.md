@@ -22,7 +22,7 @@ The sklearn library can be installed as follows-
 
 $sudo install -U scikit-learn
 
-Preprocessing of data id done by using the NLP techniques such as tokenization, stop word removal and stemming.
+Preprocessing of data is done by using the NLP techniques such as tokenization, stop word removal and stemming.
 Tokenization is done withe the help of CountVectorizer. Snowball Stemmer takes the tokenized TfidfTransformed data.
 Stop word removal is done with the help of the class StemmedCountVectorizer. 
 These techniques are integrated with the choosen ML algorithm (LinearSVC) using Pipeline.
